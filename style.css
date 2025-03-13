@@ -1,0 +1,82 @@
+/* Styles généraux */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f4f4f4;
+    color: #333;
+}
+ 
+/* En-tête */
+header {
+    background: #005A9C;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+ 
+nav {
+    margin-top: 10px;
+}
+ 
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+}
+ 
+nav a:hover {
+    text-decoration: underline;
+}
+ 
+/* Contenu principal */
+.container {
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+}
+ 
+h2 {
+    text-align: center;
+    color: #005A9C;
+}
+ 
+/* Grid pour les projets */
+.grid {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+ 
+.card {
+    background: white;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    text-align: center;
+}
+ 
+.card a {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 15px;
+    background: #005A9C;
+    color: white;
+    border-radius: 5px;
+    text-decoration: none;
+}
+ 
+.card a:hover {
+    background: #00407F;
+}
+ 
+/* Pied de page */
+footer {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+}
